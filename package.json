@@ -1,0 +1,22 @@
+{
+  "name": "pulse-set",
+  "version": "1.0.0",
+  "description": "Management for pulse and provide api to deal with it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./src/main.js --out-file ./dist/main.js --source-maps"
+  },
+  "keywords": [
+    "pulse",
+    "interval",
+    "timeout"
+  ],
+  "git": "https://github.com/ycscholes/pulse-set.git",
+  "author": "Chen Yu",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
